@@ -43,7 +43,7 @@ cp terraform.tfvars.example terraform.tfvars
 ### 2. Configurar contraseña del administrador
 
 ```bash
-export TF_VAR_admin_password="TuContraseñaSegura123!"
+export TF_VAR_admin_password="$YOUR_SECURE_PASSWORD"
 ```
 
 > ⚠️ Nunca hardcodees la contraseña en `terraform.tfvars`.
