@@ -1,0 +1,29 @@
+# Terraform state — NUNCA commitear
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Terraform working directory
+.terraform/
+
+# Plan files
+*.tfplan
+tfplan
+
+# Variable files con valores reales
+*.tfvars
+!*.tfvars.example
+
+# Crash logs
+crash.log
+
+# Credenciales y env files
+.env
+*.env
+
+# macOS
+.DS_Store
+
+# Claude Code interno
+.claude/
+.superpowers/
