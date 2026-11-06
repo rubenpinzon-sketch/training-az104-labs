@@ -1,0 +1,14 @@
+subscription_id = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+
+# admin_password is NOT set here — inject via environment variable:
+#   export TF_VAR_admin_password="YourSecurePassword123!"
+
+# Recommended: restrict RDP to your public IP instead of "*"
+# rdp_source_address = "203.0.113.10/32"
+
+tags = {
+  project     = "az-vm-win"
+  environment = "dev"
+  owner       = "your-github-username"
+  managed_by  = "Terraform"
+}
